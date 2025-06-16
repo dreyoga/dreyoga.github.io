@@ -1,0 +1,23 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #FDF6F0;
+  color: #2B2B2B;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header {
+  text-align: center;
+  padding: 2em 1em 1em;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+main {
+  padding: 2em;
+  max-width: 700px;
+  margin: auto;
+}
