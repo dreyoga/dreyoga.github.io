@@ -1,23 +1,63 @@
-body {
-  font-family: 'Helvetica Neue', sans-serif;
-  background-color: #FDF6F0;
-  color: #2B2B2B;
+
+html, body {
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  height: 100%;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #2B2B2B;
 }
-header {
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #F3E8D9;
+  padding: 2rem 1rem;
+  position: fixed;
+  height: 100%;
+  box-sizing: border-box;
   text-align: center;
-  padding: 2em 1em 1em;
 }
-nav a {
-  margin: 0 10px;
+
+.sidebar h1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.sidebar li {
+  margin: 0.75rem 0;
+}
+
+.sidebar a {
   text-decoration: none;
-  color: inherit;
+  color: #2B2B2B;
   font-weight: bold;
 }
-main {
-  padding: 2em;
-  max-width: 700px;
-  margin: auto;
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.page-content {
+  margin-left: 200px;
+  padding: 3rem 2rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
 }
